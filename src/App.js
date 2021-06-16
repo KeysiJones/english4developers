@@ -4,9 +4,9 @@ import developer from './images/1280.jpg'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 text-center">
+    <div className="min-h-screen bg-gray-100 text-left">
       <div className="bg-black dark:bg-gray-800 p-3">
-        <span className="text-white text-2xl">English 4 Developers</span>
+        <span className="text-white text-2xl ml-24">English 4 Developers</span>
       </div>
       <div className='h-screen bg-bottom text-left' style={{ backgroundImage: `url(${developer})` }}>
         <div>
