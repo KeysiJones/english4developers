@@ -35,3 +35,23 @@
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
   display: flex !important;
 }
+
+button:hover {
+  border: none;
+  transform: scale(1.1);
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+
+div#hero:before {
+    content: "";
+    position: absolute;
+    top: 11.1vh;
+    right: 0px;
+    bottom: -350px;
+    left: 0px;
+    background-color: rgb(255 255 255 / 50%);
+}
