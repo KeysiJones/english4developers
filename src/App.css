@@ -53,5 +53,11 @@ div#hero:before {
     right: 0px;
     bottom: -350px;
     left: 0px;
-    background-color: rgb(255 255 255 / 50%);
+    background-color: rgb(255 255 255 / 30%);
+}
+
+@media screen and (max-width: 600px) {
+  div#hero:before {
+    display: none;
+}
 }
