@@ -60,4 +60,12 @@ div#hero:before {
   div#hero:before {
     display: none;
 }
+
+div#hero {
+  background-image: none !important;
+}
+}
+
+.h-124 {
+  height: calc(124vh + 100px);
 }
