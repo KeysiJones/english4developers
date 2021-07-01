@@ -8,17 +8,17 @@ function App() {
   }
   return (
     <div className="md:min-h-screen md:text-left grid">
-      <div className="bg-green-400 dark:bg-gray-800 p-3">
-        <span className="text-white sm:text-2xl text-3xl sm:ml-32 ml-28 relative font-bold">English 4 Developers</span>
+      <div className="bg-green-400 dark:bg-gray-800 p-3 text-center sm:text-left">
+        <span className="text-white sm:text-2xl text-4xl sm:ml-32 mx-auto relative font-bold">English 4 Developers</span>
       </div>
-      <div id='hero'className='h-screen bg-left text-left' style={{ backgroundImage: `url(${developer})` }}>
+      <div id='hero'className='h-screen bg-left text-center' style={{ backgroundImage: `url(${developer})` }}>
         <div>
-          <p className='text-green-500 sm:text-5xl text-6xl text-left sm:w-96 w-96 sm:p-12 p-4 ml-24 sm:ml-32 mt-10 leading-tight relative'>Domine o Inglês e trabalhe de onde quiser.</p>
+          <p className='text-green-500 mx-auto my-20 sm:text-5xl font-size-8 sm:text-6xl text-left sm:w-96 w-96 sm:p-12 p-4 sm:ml-32 sm:mt-10 leading-tight relative'>Domine o Inglês e trabalhe de onde quiser.</p>
+          <button onClick={sendWppMessage} className='sm:text-2xl text-3xl font-bold sm:absolute shadow-2xl bg-green-400 text-white rounded-lg p-3 mt-10 sm:ml-36 m-auto'>Quero saber mais !</button>
         </div>
-        <button onClick={sendWppMessage} className='sm:text-2xl text-3xl font-bold absolute shadow-2xl bg-green-400 text-white rounded-lg p-3 mt-10 sm:ml-36 ml-28'>Quero saber mais !</button>
       </div>
       <h2 className='text-center text-black text-5xl my-12'>Aprenda Inglês do conforto de sua casa</h2>
-      <h2 className='text-center text-white text-4xl my-4 bg-green-400 p-3 relative'>Fica tranquilo, outras pessoas já fizeram o curso.</h2>
+      <h2 className='text-center text-white text-4xl my-8 bg-green-400 p-3 relative'>Fica tranquilo, outras pessoas já fizeram o curso.</h2>
       <div id="carouselExampleIndicators" className="carousel slide mb-10" data-ride="carousel">
         <ol className="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
@@ -27,26 +27,26 @@ function App() {
         </ol>
         <div className="carousel-inner rounded-xl">
           <div className="text-center active carousel-item m-auto place-content-center">
-            <div className='m-2 p-2 bg-green-400 block text-white w-7/12 rounded-3xl text-center h-96'>
-              <p className='mx-20 text-3xl mt-20'>"Depois que eu comecei o curso do Deoly eu nunca mais tive medo de fazer uma entrevista em Inglês"</p>
-              <p className='text-2xl mt-14'>- Camila Santos</p>
+            <div className='m-2 p-2 bg-green-400 block text-white w-80 sm:w-7/12 rounded-3xl text-center h-96'>
+              <p className='sm:mx-20 text-3xl mt-10 w-full sm:mt-20'>"Depois que eu comecei o curso do Deoly eu nunca mais tive medo de fazer uma entrevista em Inglês"</p>
+              <p className='text-2xl sm:mt-14 mt-6'>- Camila Santos</p>
               <p className='text-lg'>Desenvolvedora backend</p>
             </div>
           </div>
-          {/* <div class="text-center carousel-item m-auto place-content-center">
-            <div className='m-2 p-2 bg-gray-300 grid text-white w-7/12 rounded-3xl text-center h-96'>
-              <p className='mx-20 text-3xl mt-28'>"Depois que eu comecei o curso do Deoly eu nunca mais tive medo de fazer uma entrevista em Inglês"</p>
-              <p className='mx-20 text-2xl'>- Camila Santos</p>
-              <p className='mx-20 text-lg'>Desenvolvedora backend</p>
+          <div className="text-center carousel-item m-auto place-content-center">
+            <div className='m-2 p-2 bg-green-400 block text-white w-80 sm:w-7/12 rounded-3xl text-center h-96'>
+              <p className='sm:mx-20 text-3xl mt-10 w-full sm:mt-20'>"Depois que eu comecei o curso do Deoly eu nunca mais tive medo de fazer uma entrevista em Inglês"</p>
+              <p className='text-2xl sm:mt-14 mt-6'>- Camila Santos</p>
+              <p className='text-lg'>Desenvolvedora backend</p>
             </div>
           </div>
-          <div class="text-center carousel-item m-auto place-content-center">
-            <div className='m-2 p-2 bg-gray-300 grid text-white w-7/12 rounded-3xl text-center h-96'>
-              <p className='mx-20 text-3xl mt-28'>"Depois que eu comecei o curso do Deoly eu nunca mais tive medo de fazer uma entrevista em Inglês"</p>
-              <p className='mx-20 text-2xl'>- Camila Santos</p>
-              <p className='mx-20 text-lg'>Desenvolvedora backend</p>
+          <div className="text-center carousel-item m-auto place-content-center">
+            <div className='m-2 p-2 bg-green-400 block text-white w-80 sm:w-7/12 rounded-3xl text-center h-96'>
+              <p className='sm:mx-20 text-3xl mt-10 w-full sm:mt-20'>"Depois que eu comecei o curso do Deoly eu nunca mais tive medo de fazer uma entrevista em Inglês"</p>
+              <p className='text-2xl sm:mt-14 mt-6'>- Camila Santos</p>
+              <p className='text-lg'>Desenvolvedora backend</p>
             </div>
-          </div> */}
+          </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span className="carousel-control-prev-icon bg-green-400 p-6 rounded-lg" aria-hidden="true"></span>

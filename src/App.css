@@ -69,3 +69,7 @@ div#hero {
 .h-124 {
   height: calc(124vh + 100px);
 }
+
+.font-size-8 {
+  font-size: 8.38vh;
+}
