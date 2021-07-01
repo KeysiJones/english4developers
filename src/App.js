@@ -7,9 +7,9 @@ function App() {
     window.open("https://wa.me/5551989061012?text=Olá Felipe ! quero saber mais sobre o seu curso de Inglês para devs.", '_blank')
   }
   return (
-    <div className="md:min-h-screen md:text-left sm:grid inline-block">
+    <div className="md:min-h-screen md:text-left sm:grid flow-root">
       <div className="bg-green-400 dark:bg-gray-800 p-3 text-center sm:text-left">
-        <span className="text-white sm:text-2xl text-4xl sm:ml-32 mx-auto relative font-bold">English 4 Developers</span>
+        <span className="text-white sm:text-2xl text-3xl sm:ml-32 mx-auto relative font-bold">English 4 Developers</span>
       </div>
       <div id='hero'className='h-screen bg-left text-center' style={{ backgroundImage: `url(${developer})` }}>
         <div>
