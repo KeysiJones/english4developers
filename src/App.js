@@ -13,7 +13,7 @@ function App() {
       </div>
       <div id='hero'className='h-screen bg-left text-center' style={{ backgroundImage: `url(${developer})` }}>
         <div>
-          <p className='text-green-500 mx-auto my-20 sm:text-5xl font-size-8 sm:text-6xl text-left sm:w-96 w-96 sm:p-12 p-4 sm:ml-32 sm:mt-10 leading-tight relative'>Domine o Inglês e trabalhe de onde quiser.</p>
+          <p className='text-green-500 mx-auto my-20 sm:text-5xl font-size-8 sm:text-6xl text-left sm:w-96 w-96 sm:p-12 px-10 py-2 sm:ml-32 sm:mt-10 leading-tight relative'>Domine o Inglês e trabalhe de onde quiser.</p>
           <button onClick={sendWppMessage} className='sm:text-2xl text-3xl font-bold sm:absolute shadow-2xl bg-green-400 text-white rounded-lg p-3 mt-10 sm:ml-36 m-auto'>Quero saber mais !</button>
         </div>
       </div>
