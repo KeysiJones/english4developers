@@ -7,17 +7,17 @@ function App() {
     window.open("https://wa.me/5551989061012?text=Olá Felipe ! quero saber mais sobre o seu curso de Inglês para devs.", '_blank')
   }
   return (
-    <div className="md:min-h-screen md:text-left sm:grid flow-root">
+    <div className="md:min-h-screen md:text-left sm:grid inline-block">
       <div className="bg-green-400 dark:bg-gray-800 p-3 text-center sm:text-left">
         <span className="text-white sm:text-2xl text-4xl sm:ml-32 mx-auto relative font-bold">English 4 Developers</span>
       </div>
       <div id='hero'className='h-screen bg-left text-center' style={{ backgroundImage: `url(${developer})` }}>
         <div>
-          <p className='text-green-500 mx-auto my-20 sm:text-5xl font-size-8 sm:text-6xl text-left sm:w-96 w-96 sm:p-12 px-10 py-2 sm:ml-32 sm:mt-10 leading-tight relative'>Domine o Inglês e trabalhe de onde quiser.</p>
+          <p className='text-green-500 mx-auto mt-10 mb-20 sm:text-5xl font-size-8 sm:text-6xl text-left sm:w-96 w-96 sm:p-12 px-10 py-2 sm:ml-32 sm:mt-10 leading-tight relative'>Domine o Inglês e trabalhe de onde quiser.</p>
           <button onClick={sendWppMessage} className='sm:text-2xl text-3xl font-bold sm:absolute shadow-2xl bg-green-400 text-white rounded-lg p-3 mt-10 sm:ml-36 m-auto'>Quero saber mais !</button>
         </div>
       </div>
-      <h2 className='text-center text-black text-5xl my-12 mx-4'>Aprenda Inglês do conforto de sua casa</h2>
+      <h2 className='text-center text-black text-5xl mb-12 mx-4'>Aprenda Inglês do conforto de sua casa</h2>
       <h2 className='text-center text-white text-4xl my-8 bg-green-400 p-3 relative'>Fica tranquilo, outras pessoas já fizeram o curso.</h2>
       <div id="carouselExampleIndicators" className="carousel slide mb-10" data-ride="carousel">
         <ol className="carousel-indicators">
