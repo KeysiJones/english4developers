@@ -17,7 +17,7 @@ function App() {
           <button onClick={sendWppMessage} className='sm:text-2xl text-3xl font-bold sm:absolute shadow-2xl bg-green-400 text-white rounded-lg p-3 mt-10 sm:ml-36 m-auto'>Quero saber mais !</button>
         </div>
       </div>
-      <h2 className='text-center text-black text-5xl my-12'>Aprenda Inglês do conforto de sua casa</h2>
+      <h2 className='text-center text-black text-5xl my-12 mx-4'>Aprenda Inglês do conforto de sua casa</h2>
       <h2 className='text-center text-white text-4xl my-8 bg-green-400 p-3 relative'>Fica tranquilo, outras pessoas já fizeram o curso.</h2>
       <div id="carouselExampleIndicators" className="carousel slide mb-10" data-ride="carousel">
         <ol className="carousel-indicators">
@@ -26,7 +26,7 @@ function App() {
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div className="carousel-inner rounded-xl">
-          <div className="text-center active carousel-item m-auto place-content-center">
+          <div className="text-center active carousel-item my-auto place-content-center">
             <div className='m-2 p-2 bg-green-400 block text-white w-80 sm:w-7/12 rounded-3xl text-center h-96'>
               <p className='sm:mx-20 text-3xl mt-10 w-full sm:mt-20'>"Depois que eu comecei o curso do Deoly eu nunca mais tive medo de fazer uma entrevista em Inglês"</p>
               <p className='text-2xl sm:mt-14 mt-6'>- Camila Santos</p>
