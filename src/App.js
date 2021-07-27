@@ -12,7 +12,7 @@ function App() {
       </div>
       <div id='hero' className='h-screen bg-left text-center'>
         <div>
-          <p className='text-green-500 mt-12 mb-20 text-6xl text-left mx-52 w-4/6 px-14 py-2 leading-tight'>Domine o inglês e trabalhe de onde quiser.</p>
+          <p className='hero-text'>Domine o inglês e trabalhe de onde quiser.</p>
           <button onClick={sendWppMessage} className='btn-wpp'>Comece agora &darr;</button>
         </div>
       </div>
