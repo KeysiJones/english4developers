@@ -16,7 +16,7 @@ function App() {
           <button onClick={sendWppMessage} className='btn-wpp'>Comece agora &darr;</button>
         </div>
       </div>
-      <h2 id='comece-agora' className='text-center text-black text-5xl mt-32 mb-12 mx-4'>Aprenda Inglês do conforto de sua casa</h2>
+      <h2 id='comece-agora' className='text-center text-black text-5xl mb-12 mx-4'>Aprenda Inglês do conforto de sua casa</h2>
       <h2 className='text-center text-white text-4xl my-8 bg-green-400 p-3 relative'>Fica tranquilo, outras pessoas já fizeram o curso.</h2>
       <div id="carouselExampleIndicators" className="carousel slide mb-10" data-ride="carousel">
         <ol className="carousel-indicators">
