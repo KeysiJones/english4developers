@@ -100,6 +100,12 @@ code {
   @apply text-3xl mt-20 w-full;
 }
 
+@screen xsm {
+  #comece-agora {
+    @apply text-center text-black text-5xl mt-32 mb-12 mx-4;
+  }
+}
+
 @screen sm {
   .page-title {
     @apply page-title-sm
