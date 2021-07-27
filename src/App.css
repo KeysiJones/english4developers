@@ -46,26 +46,6 @@ button:focus {
   outline: none;
 }
 
-div#hero:before {
-    content: "";
-    position: absolute;
-    top: 11.1vh;
-    right: 0px;
-    bottom: -350px;
-    left: 0px;
-    background-color: rgb(255 255 255 / 30%);
-}
-
-@media screen and (max-width: 600px) {
-  div#hero:before {
-    display: none;
-}
-
-div#hero {
-  background-image: none !important;
-}
-}
-
 .h-124 {
   height: calc(124vh + 100px);
 }
