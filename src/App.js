@@ -28,21 +28,21 @@ function App() {
           <div className="text-center active carousel-item my-auto place-content-center">
             <div className='testimony-box'>
               <p className='testimony-box-text-1'>"Depois que eu comecei o curso do Deoly eu nunca mais tive medo de fazer uma entrevista em Inglês"</p>
-              <p className='text-2xl my-4'>- Camila Santos</p>
-            </div>
-          </div>
-          {/* <div className="text-center carousel-item my-auto place-content-center">
-            <div className='m-2 p-2 bg-green-400 block text-white w-80 sm:w-7/12 rounded-3xl text-center h-96'>
-              <p className='text-3xl mt-2 w-full'>"Depois que eu comecei o curso do Deoly eu nunca mais tive medo de fazer uma entrevista em Inglês"</p>
-              <p className='text-2xl my-4'>- Camila Santos</p>
+              <p className='text-2xl my-4'>- Carlos Souza</p>
             </div>
           </div>
           <div className="text-center carousel-item my-auto place-content-center">
-            <div className='m-2 p-2 bg-green-400 block text-white w-80 sm:w-7/12 rounded-3xl text-center h-96'>
-              <p className='text-3xl mt-2 w-full'>"Depois que eu comecei o curso do Deoly eu nunca mais tive medo de fazer uma entrevista em Inglês"</p>
-              <p className='text-2xl my-4'>- Camila Santos</p>
+            <div className='testimony-box'>
+              <p className='testimony-box-text-1'>"A didática do professor é a mais eficiente que eu já vi, com ele aprendi mais rápido"</p>
+              <p className='text-2xl my-4'>- Amanda Da Silva</p>
             </div>
-          </div> */}
+          </div>
+          <div className="text-center carousel-item my-auto place-content-center">
+            <div className='testimony-box'>
+              <p className='testimony-box-text-1'>"2 semanas depois de ter terminado o curso eu consegui um emprego !!! o curso é demais."</p>
+              <p className='text-2xl my-4'>- João Luz</p>
+            </div>
+          </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span className="carousel-control-prev-icon bg-green-400 p-6 rounded-lg" aria-hidden="true"></span>
@@ -53,11 +53,6 @@ function App() {
           <span className="sr-only">Next</span>
         </a>
       </div>
-      {/* <div className='m-auto text-center flex place-content-center'>
-        <div className='m-2 p-2 bg-black text-white w-60 rounded'>epa</div>
-        <div className='m-2 p-2 bg-black text-white w-60 rounded'>epa</div>
-        <div className='m-2 p-2 bg-black text-white w-60 rounded'>epa</div>
-      </div> */}
     </div>
   );
 }

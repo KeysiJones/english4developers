@@ -97,7 +97,7 @@ code {
 }
 
 .testimony-box-text-1-lg {
-  @apply text-3xl mt-20 w-full;
+  @apply text-4xl w-full my-24;
 }
 
 @screen xsm {
