@@ -38,15 +38,15 @@ function App() {
       <Carousel showThumbs={false} showStatus={false}>
         <div className="testimony-box">
           <TestimonyBoxText
-            text="Depois que eu comecei o curso do Deoly eu nunca mais tive medo de
-            fazer uma entrevista em Inglês"
+            text='"Depois que eu comecei o curso do Deoly eu nunca mais tive medo de
+            fazer uma entrevista em Inglês"'
           />
           <p className="text-2xl my-4">- Cintia Ferreira</p>
         </div>
         <div className="testimony-box">
           <TestimonyBoxText
-            text="2 semanas depois de ter terminado o curso eu consegui um emprego
-            !!! o curso é demais."
+            text='"2 semanas depois de ter terminado o curso eu consegui um emprego
+            !!! o curso é demais."'
           />
           <p className="text-2xl my-4">- Carlos Souza</p>
         </div>
