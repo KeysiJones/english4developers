@@ -3,6 +3,7 @@ import "./index.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import TestimonyBoxText from "./components/TestimonyBoxText";
+import TestimonyBox from "./components/TestimonyBox";
 
 const numeroCelular = process.env.REACT_APP_NUMERO_CELULAR;
 
@@ -38,27 +39,27 @@ function App() {
         Fica tranquilo, outras pessoas já fizeram o curso.
       </h2>
       <Carousel showThumbs={false} showStatus={false}>
-        <div className="testimony-box">
+        <TestimonyBox>
           <TestimonyBoxText
-            text='"Depois que eu comecei o curso do Deoly eu nunca mais tive medo de
+            testimony='"Depois que eu comecei o curso do Deoly eu nunca mais tive medo de
             fazer uma entrevista em Inglês"'
+            author="Cintia Ferreira"
           />
-          <p className="text-2xl my-4">- Cintia Ferreira</p>
-        </div>
-        <div className="testimony-box">
+        </TestimonyBox>
+        <TestimonyBox>
           <TestimonyBoxText
-            text='"2 semanas depois de ter terminado o curso eu consegui um emprego
+            testimony='"2 semanas depois de ter terminado o curso eu consegui um emprego
             !!! o curso é demais."'
+            author="Carlos Souza"
           />
-          <p className="text-2xl my-4">- Carlos Souza</p>
-        </div>
-        <div className="testimony-box">
+        </TestimonyBox>
+        <TestimonyBox>
           <TestimonyBoxText
-            text='"A didática do professor é a mais eficiente que eu já vi, com ele
+            testimony='"A didática do professor é a mais eficiente que eu já vi, com ele
             aprendi mais rápido"'
+            author="Débora Santos"
           />
-          <p className="text-2xl my-4">- Débora Santos</p>
-        </div>
+        </TestimonyBox>
       </Carousel>
     </div>
   );

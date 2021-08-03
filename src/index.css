@@ -104,6 +104,10 @@ code {
   #comece-agora {
     @apply text-center text-black text-5xl mt-32 mb-12 mx-4;
   }
+
+  .hero-text {
+    @apply text-green-500 mx-auto mt-10 mb-32 text-6xl text-left w-96 px-14 py-2 leading-tight;
+  }
 }
 
 @screen sm {
