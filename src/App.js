@@ -4,10 +4,12 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import TestimonyBoxText from "./components/TestimonyBoxText";
 
+const numeroCelular = process.env.REACT_APP_NUMERO_CELULAR;
+
 function App() {
   const sendWppMessage = () => {
     window.open(
-      "https://wa.me/5551989061012?text=Olá Felipe ! quero saber mais sobre o seu curso de Inglês para devs.",
+      `https://wa.me/55${numeroCelular}?text=Olá Felipe ! quero saber mais sobre o seu curso de Inglês para devs.`,
       "_blank"
     );
   };
