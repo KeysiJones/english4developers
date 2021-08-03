@@ -29,15 +29,15 @@ code {
 }
 
 .btn-wpp-sm {
-  @apply text-3xl font-bold shadow-2xl bg-green-400 text-white rounded-lg p-3 mt-4 m-auto;
+  @apply text-4xl font-bold shadow-2xl bg-green-400 text-white rounded-lg p-5 mt-4 m-auto;
 }
 
 .page-title-text-sm {
-  @apply text-white text-3xl mx-auto relative font-bold;
+  @apply text-white text-4xl mx-auto relative font-bold;
 }
 
 .hero-text-sm {
-  @apply text-green-500 mx-auto mt-10 mb-20 text-6xl text-left w-96 px-14 py-2 leading-tight;
+  @apply text-green-500 mx-auto mt-10 mb-52 text-6xl text-left w-96 px-14 py-2 leading-tight;
 }
 
 .call-to-action-sm {

@@ -18,8 +18,8 @@ function App() {
       <div className="page-title">
         <span className="page-title-text">English 4 Developers</span>
       </div>
-      <div id="hero" className="h-screen bg-left text-center">
-        <div>
+      <div id="hero" className="h-full bg-left text-center">
+        <div className="text-center mx-auto">
           <p className="hero-text">
             Domine o inglês e trabalhe de onde quiser.
           </p>
